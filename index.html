@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="./src/input.css" />
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body>
+    <header>
+      <div class="w-full h-52">
+        <img
+          src="images/bg-header-desktop.svg"
+          alt=""
+          class="bg-[#5DA5A4] w-full h-full"
+        />
+      </div>
+    </header>
+    <main class="bg-[#F0FAFB]">
+      <div class="mx-10 py-20 md:max-w-5xl md:m-auto md:py-16">
+        <!-- 1st card -->
+        <div
+          class="flex flex-col justify-between md:flex-row p-10 border-l-[6px] border-l-[#5BA5A1] bg-white shadow-2xl rounded-md"
+        >
+          <!-- 1st div -->
+          <div class="relative md:flex gap-6">
+            <!-- 1st child div 1 -->
+            <div class="absolute top-[-80px] md:static">
+              <img src="images/photosnap.svg" alt="photosnap" />
+            </div>
+            <!-- 1st child div 2 -->
+            <div class="mt-7 md:mt-0">
+              <div class="flex flex-wrap md:flex gap-3">
+                <p class="text-[#74A8A6] font-bold">Photosnap</p>
+                <button
+                  class="inline-block bg-[#74A8A6] text-sm text-white font-bold px-2 rounded-full"
+                >
+                  NEW!
+                </button>
+                <button
+                  class="inline-block bg-black text-white text-sm font-bold px-2 rounded-full"
+                >
+                  FEATURED
+                </button>
+              </div>
+              <div>
+                <h1 class="text-[#222A2A] text-xl font-bold my-2">
+                  Senior Fronted Developer
+                </h1>
+              </div>
+              <div class="flex gap-3">
+                <p class="common-class1">1d ago</p>
+                <p class="common-class1">Full Time</p>
+                <p class="common-class1">USA only</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd div -->
+          <div class="flex flex-wrap mt-8 md:flex gap-6 items-center md:mt-0">
+            <div class="common-class">Fronted</div>
+            <div class="common-class">Senior</div>
+            <div class="common-class">HTML</div>
+            <div class="common-class">CSS</div>
+            <div class="common-class">JavaScript</div>
+          </div>
+        </div>
+
+        <!-- 2nd card -->
+        <div
+          class="flex flex-col justify-between mt-16 md:flex-row p-10 border-l-[6px] border-l-[#5BA5A1] bg-white shadow-2xl rounded-md md:mt-6"
+        >
+          <!-- 1st div -->
+          <div class="relative md:flex gap-6">
+            <!-- 1st child div 1 -->
+            <div class="absolute top-[-80px] md:static">
+              <img src="images/manage.svg" alt="manage" />
+            </div>
+            <!-- 1st child div 2 -->
+            <div class="mt-7 md:mt-0">
+              <div class="flex flex-wrap md:flex gap-3">
+                <p class="text-[#74A8A6] font-bold">Manage</p>
+                <button
+                  class="inline-block bg-[#74A8A6] text-sm text-white font-bold px-2 rounded-full"
+                >
+                  NEW!
+                </button>
+                <button
+                  class="inline-block bg-black text-white text-sm font-bold px-2 rounded-full"
+                >
+                  FEATURED
+                </button>
+              </div>
+              <div>
+                <h1 class="text-[#222A2A] text-xl font-bold my-2">
+                  Fullstack Developer
+                </h1>
+              </div>
+              <div class="flex gap-3">
+                <p class="common-class1">1d ago</p>
+                <p class="common-class1">Part Time</p>
+                <p class="common-class1">Remote</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd div -->
+          <div class="flex flex-wrap mt-8 md:flex gap-6 items-center md:mt-0">
+            <div class="common-class">Fullstack</div>
+            <div class="common-class">Midweight</div>
+            <div class="common-class">Python</div>
+            <div class="common-class">React</div>
+          </div>
+        </div>
+
+        <!-- 3rd card -->
+        <div
+          class="flex flex-col justify-between mt-16 md:flex-row p-10 bg-white shadow-2xl rounded-md md:mt-6"
+        >
+          <!-- 1st div -->
+          <div class="relative md:flex gap-6">
+            <!-- 1st child div 1 -->
+            <div class="absolute top-[-80px] md:static">
+              <img src="images/account.svg" alt="account" />
+            </div>
+            <!-- 1st child div 2 -->
+            <div class="mt-7 md:mt-0">
+              <div class="flex flex-wrap md:flex gap-3">
+                <p class="text-[#74A8A6] font-bold">Account</p>
+                <button
+                  class="inline-block bg-[#74A8A6] text-sm text-white font-bold px-2 rounded-full"
+                >
+                  NEW!
+                </button>
+              </div>
+              <div>
+                <h1 class="text-[#222A2A] text-xl font-bold my-2">
+                  Junior Frontend Developer
+                </h1>
+              </div>
+              <div class="flex gap-3">
+                <p class="common-class1">2d ago</p>
+                <p class="common-class1">Part Time</p>
+                <p class="common-class1">USA only</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd div -->
+          <div class="flex flex-wrap mt-8 md:flex gap-6 items-center md:mt-0">
+            <div class="common-class">Frontend</div>
+            <div class="common-class">Junior</div>
+            <div class="common-class">React</div>
+            <div class="common-class">Sass</div>
+            <div class="common-class">JavaScript</div>
+          </div>
+        </div>
+
+        <!-- 4th card -->
+        <div
+          class="flex flex-col justify-between mt-16 md:flex-row p-10 bg-white shadow-2xl rounded-md md:mt-6"
+        >
+          <!-- 1st div -->
+          <div class="relative md:flex gap-6">
+            <!-- 1st child div 1 -->
+            <div class="absolute top-[-80px] md:static">
+              <img src="images/myhome.svg" alt="home" />
+            </div>
+            <!-- 1st child div 2 -->
+            <div class="mt-7 md:mt-0">
+              <div class="flex flex-wrap md:flex gap-3">
+                <p class="text-[#74A8A6] font-bold">MyHome</p>
+              </div>
+              <div>
+                <h1 class="text-[#222A2A] text-xl font-bold my-2">
+                  Junior Frontend Developer
+                </h1>
+              </div>
+              <div class="flex gap-3">
+                <p class="common-class1">5d ago</p>
+                <p class="common-class1">Contact</p>
+                <p class="common-class1">USA only</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd div -->
+          <div class="flex flex-wrap mt-8 md:flex gap-6 items-center md:mt-0">
+            <div class="common-class">Frontend</div>
+            <div class="common-class">Junior</div>
+            <div class="common-class">CSS</div>
+            <div class="common-class">JavaScript</div>
+          </div>
+        </div>
+
+        <!-- 5th card -->
+        <div
+          class="flex flex-col justify-between mt-16 md:flex-row p-10 bg-white shadow-2xl rounded-md md:mt-6"
+        >
+          <!-- 1st div -->
+          <div class="relative md:flex gap-6">
+            <!-- 1st child div 1 -->
+            <div class="absolute top-[-80px] md:static">
+              <img src="images/loop-studios.svg" alt="loop studios" />
+            </div>
+            <!-- 1st child div 2 -->
+            <div class="mt-7 md:mt-0">
+              <div class="flex flex-wrap md:flex gap-3">
+                <p class="text-[#74A8A6] font-bold">Loop Studios</p>
+              </div>
+              <div>
+                <h1 class="text-[#222A2A] text-xl font-bold my-2">
+                  Software Engineer
+                </h1>
+              </div>
+              <div class="flex gap-3">
+                <p class="common-class1">1w ago</p>
+                <p class="common-class1">Full Time</p>
+                <p class="common-class1">Worldwide</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd div -->
+          <div class="flex flex-wrap mt-8 md:flex gap-6 items-center md:mt-0">
+            <div class="common-class">Fullstack</div>
+            <div class="common-class">Midweight</div>
+            <div class="common-class">JavaScript</div>
+            <div class="common-class">Sass</div>
+            <div class="common-class">Ruby</div>
+          </div>
+        </div>
+
+        <!-- 6th card -->
+        <div
+          class="flex flex-col justify-between mt-16 md:flex-row p-10 bg-white shadow-2xl rounded-md md:mt-6"
+        >
+          <!-- 1st div -->
+          <div class="relative md:flex gap-6">
+            <!-- 1st child div 1 -->
+            <div class="absolute top-[-80px] md:static">
+              <img src="images/faceit.svg" alt="faceit" />
+            </div>
+            <!-- 1st child div 2 -->
+            <div class="mt-7 md:mt-0">
+              <div class="flex flex-wrap md:flex gap-3">
+                <p class="text-[#74A8A6] font-bold">Facelt</p>
+              </div>
+              <div>
+                <h1 class="text-[#222A2A] text-xl font-bold my-2">
+                  Junior Backend Developer
+                </h1>
+              </div>
+              <div class="flex gap-3">
+                <p class="common-class1">2w ago</p>
+                <p class="common-class1">Full Time</p>
+                <p class="common-class1">UK only</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd div -->
+          <div class="flex flex-wrap mt-8 md:flex gap-6 items-center md:mt-0">
+            <div class="common-class">Backend</div>
+            <div class="common-class">Junior</div>
+            <div class="common-class">Ruby</div>
+            <div class="common-class">RoR</div>
+          </div>
+        </div>
+
+        <!-- 7th card -->
+        <div
+          class="flex flex-col justify-between mt-16 md:flex-row p-10 bg-white shadow-2xl rounded-md md:mt-6"
+        >
+          <!-- 1st div -->
+          <div class="relative md:flex gap-6">
+            <!-- 1st child div 1 -->
+            <div class="absolute top-[-80px] md:static">
+              <img src="images/shortly.svg" alt="shortly" />
+            </div>
+            <!-- 1st child div 2 -->
+            <div class="mt-7 md:mt-0">
+              <div class="flex flex-wrap md:flex gap-3">
+                <p class="text-[#74A8A6] font-bold">Shortly</p>
+              </div>
+              <div>
+                <h1 class="text-[#222A2A] text-xl font-bold my-2">
+                  Junior Developer
+                </h1>
+              </div>
+              <div class="flex gap-3">
+                <p class="common-class1">2w ago</p>
+                <p class="common-class1">Full Time</p>
+                <p class="common-class1">Worldwide</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd div -->
+          <div class="flex flex-wrap mt-8 md:flex gap-6 items-center md:mt-0">
+            <div class="common-class">Frontend</div>
+            <div class="common-class">Junior</div>
+            <div class="common-class">HTML</div>
+            <div class="common-class">Sass</div>
+            <div class="common-class">JavaScript</div>
+          </div>
+        </div>
+
+        <!-- 8th card -->
+        <div
+          class="flex flex-col justify-between mt-16 md:flex-row p-10 bg-white shadow-2xl rounded-md md:mt-6"
+        >
+          <!-- 1st div -->
+          <div class="relative md:flex gap-6">
+            <!-- 1st child div 1 -->
+            <div class="absolute top-[-80px] md:static">
+              <img src="images/insure.svg" alt="insure" />
+            </div>
+            <!-- 1st child div 2 -->
+            <div class="mt-7 md:mt-0">
+              <div class="flex flex-wrap md:flex gap-3">
+                <p class="text-[#74A8A6] font-bold">Insure</p>
+              </div>
+              <div>
+                <h1 class="text-[#222A2A] text-xl font-bold my-2">
+                  Junior Frontend Developer
+                </h1>
+              </div>
+              <div class="flex gap-3">
+                <p class="common-class1">2w ago</p>
+                <p class="common-class1">Full Time</p>
+                <p class="common-class1">USA only</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd div -->
+          <div class="flex flex-wrap mt-8 md:flex gap-6 items-center md:mt-0">
+            <div class="common-class">Frontend</div>
+            <div class="common-class">Junior</div>
+            <div class="common-class">Vue</div>
+            <div class="common-class">JavaScript</div>
+            <div class="common-class">Sass</div>
+          </div>
+        </div>
+
+        <!-- 9th card -->
+        <div
+          class="flex flex-col justify-between mt-16 md:flex-row p-10 bg-white shadow-2xl rounded-md md:mt-6"
+        >
+          <!-- 1st div -->
+          <div class="relative md:flex gap-6">
+            <!-- 1st child div 1 -->
+            <div class="absolute top-[-80px] md:static">
+              <img src="images/eyecam-co.svg" alt="eyecam" />
+            </div>
+            <!-- 1st child div 2 -->
+            <div class="mt-7 md:mt-0">
+              <div class="flex flex-wrap md:flex gap-3">
+                <p class="text-[#74A8A6] font-bold">Eyecam Co.</p>
+              </div>
+              <div>
+                <h1 class="text-[#222A2A] text-xl font-bold my-2">
+                  Full Stack Engineer
+                </h1>
+              </div>
+              <div class="flex gap-3">
+                <p class="common-class1">3w ago</p>
+                <p class="common-class1">Full Time</p>
+                <p class="common-class1">Worldwide</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd div -->
+          <div class="flex flex-wrap mt-8 md:flex gap-6 items-center md:mt-0">
+            <div class="common-class">Fullstack</div>
+            <div class="common-class">Midweight</div>
+            <div class="common-class">Javascript</div>
+            <div class="common-class">Django</div>
+            <div class="common-class">Python</div>
+          </div>
+        </div>
+
+        <!-- 10th card -->
+        <div
+          class="flex flex-col justify-between mt-16 md:flex-row p-10 bg-white shadow-2xl rounded-md md:mt-6"
+        >
+          <!-- 1st div -->
+          <div class="relative md:flex gap-6">
+            <!-- 1st child div 1 -->
+            <div class="absolute top-[-80px] md:static">
+              <img
+                src="images/the-air-filter-company.svg"
+                alt="air filter company"
+              />
+            </div>
+            <!-- 1st child div 2 -->
+            <div class="mt-7 md:mt-0">
+              <div class="flex flex-wrap md:flex gap-3">
+                <p class="text-[#74A8A6] font-bold">The Air Filter Company</p>
+              </div>
+              <div>
+                <h1 class="text-[#222A2A] text-xl font-bold my-2">
+                  Front-end Dev
+                </h1>
+              </div>
+              <div class="flex gap-3">
+                <p class="common-class1">1mo ago</p>
+                <p class="common-class1">Part Time</p>
+                <p class="common-class1">Worldwide</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd div -->
+          <div class="flex flex-wrap mt-8 md:flex gap-6 items-center md:mt-0">
+            <div class="common-class">Frontend</div>
+            <div class="common-class">Junior</div>
+            <div class="common-class">React</div>
+            <div class="common-class">Sass</div>
+            <div class="common-class">JavaScript</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

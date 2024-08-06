@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.common-class {
+  @apply bg-[#F1F7F7] text-[#74A8A6] font-bold px-4 py-2 rounded-md;
+}
+.common-class1 {
+  @apply text-[#A6B1B1] font-semibold;
+}
